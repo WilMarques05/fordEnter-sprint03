@@ -24,3 +24,11 @@ body{
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, auto);
 }
+
+#header-container img{
+    width: 40vw;
+    max-width: 200px;
+    min-width: 120px;
+    height: auto;
+    margin: 10px;
+}
