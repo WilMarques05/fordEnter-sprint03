@@ -12,3 +12,9 @@
   --text-white: #ffffff;
   --text-black: #333;
 }
+
+body{
+    background-color: var(--background-body);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
