@@ -64,7 +64,7 @@ nav a {
   text-decoration: none;
 }
 
-a:hover {
+nav a:hover {
   box-shadow: 1px 5px 8px -1px var(--text-black);
   text-shadow: 1px 3px var(--text-black);
   transition: 0.03s;
@@ -87,4 +87,24 @@ section > img {
   height: 50vh;
   border-radius: 8px;
   box-shadow: 1px 3px 8px 1px var(--text-black);
+}
+
+section p {
+  text-align: center;
+  padding: 0.4rem;
+  font-size: 0.9rem;
+  min-width: 180px;
+}
+
+section a {
+  color: #003478;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+section a:hover {
+  font-size: 1rem;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 0.2s;
 }
