@@ -25,6 +25,7 @@ body {
   grid-template-rows: repeat(2, auto);
 }
 
+/* Início estilização header  */
 #header-container img {
   width: 40vw;
   max-width: 200px;
@@ -32,10 +33,12 @@ body {
   height: auto;
   margin: 10px;
 }
+
 nav {
   margin: 0 2px;
-  height: 100px;
+  height: 52px;
 }
+
 nav ul {
   border: 1.5px solid var(--ford-blue);
   display: flex;
