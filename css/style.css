@@ -87,15 +87,16 @@ section > img {
   width: 100%;
   max-width: 100%;
   min-width: 180px;
-  height: 50vh;
+  height: 60vh;
+  margin-top: 1.05rem;
   border-radius: 8px;
   box-shadow: 1px 3px 8px 1px var(--text-black);
 }
 
 section p {
   text-align: center;
-  padding: 0.4rem;
-  font-size: 0.9rem;
+  padding-top: 1.3rem;
+  font-size: 1rem;
   min-width: 180px;
 }
 
@@ -113,7 +114,7 @@ section a:hover {
 }
 
 /* Início estilização footer */
-footer{
+footer {
   display: grid;
   grid-template-columns: max-content 1fr 1fr 1fr;
   grid-template-rows: max-content 0.5fr;
@@ -126,20 +127,20 @@ footer{
   color: var(--text-white);
 }
 
-footer #texto-redes-sociais{
+footer #texto-redes-sociais {
   /* border: 2px dashed; */
-  font-size: 0.60rem;
+  font-size: 0.6rem;
   grid-column: 1;
   grid-row: 1/1;
 }
 
-footer #redes-sociais{
+footer #redes-sociais {
   /* border: 2px dashed red; */
   grid-column: 1;
   grid-row: 2;
   height: 22px;
 }
 
-footer .redes-sociais-icones{
+footer .redes-sociais-icones {
   width: 20px;
 }
