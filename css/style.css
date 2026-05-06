@@ -22,13 +22,13 @@ body {
   line-height: 1.5;
 }
 
+/* Início estilização header  */
 #header-container {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2, auto);
 }
 
-/* Início estilização header  */
 #header-container img {
   width: 40vw;
   max-width: 200px;
@@ -58,11 +58,11 @@ nav li {
 nav a {
   background-color: var(--ford-blue);
   color: var(--text-white);
-  font-size: 0.8rem;
+  font-size: 1.05rem;
   font-weight: 600;
   display: block;
   width: 100%;
-  padding: 0.2rem;
+  padding: 0.5rem;
   text-align: center;
   text-decoration: none;
 }
