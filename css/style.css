@@ -119,10 +119,12 @@ footer {
   display: grid;
   grid-template-columns: max-content 1fr 1fr 1fr;
   grid-template-rows: max-content 0.5fr;
-  align-items: center;
+  justify-items: center;
+  align-content: center;
   background-color: var(--ford-blue);
   width: 100%;
   min-width: 192px;
+  height: 60px;
   padding: 0.2rem;
   color: var(--text-white);
 }
