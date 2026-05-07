@@ -89,7 +89,7 @@ section > img {
   max-width: 100%;
   min-width: 180px;
   height: 60vh;
-  margin-top: 1.05rem;
+  margin-top: 25px;
   border-radius: 8px;
   box-shadow: 1px 3px 8px 1px var(--text-black);
 }
