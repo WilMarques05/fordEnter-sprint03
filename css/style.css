@@ -130,7 +130,7 @@ footer {
 }
 
 footer #texto-redes-sociais {
-  font-size: 0.6rem;
+  font-size: 0.75rem;
   grid-column: 1;
   grid-row: 1/1;
 }
@@ -142,5 +142,5 @@ footer #redes-sociais {
 }
 
 footer .redes-sociais-icones {
-  width: 20px;
+  width: 23px;
 }
