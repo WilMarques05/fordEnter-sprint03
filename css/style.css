@@ -30,11 +30,11 @@ body {
 }
 
 #header-container img {
-  width: 40vw;
+  width: 35vw;
   max-width: 200px;
   min-width: 120px;
   height: auto;
-  margin: 10px;
+  margin: 20px 10px 15px;
 }
 
 nav {
@@ -75,7 +75,7 @@ nav a:hover {
   filter: brightness(1.2);
 }
 
-/* Início estilização body */
+/* Início estilização main */
 main {
   display: flex;
   flex-direction: column;
