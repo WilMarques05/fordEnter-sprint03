@@ -173,6 +173,99 @@ footer #icone-ford {
   min-width: 50px;
 }
 
-@media (min-width: 665px){
+@media (min-width: 665px) {
+  #header-container {
+    display: flex;
+    align-items: center;
+  }
 
+  #header-container img {
+    width: 25vw;
+    height: auto;
+    padding-left: 30px;
+  }
+
+  nav {
+    margin: 0 2px;
+    padding-right: 100px;
+    height: 10%;
+    width: 100%;
+  }
+
+  nav ul {
+    justify-content: center;
+    list-style: none;
+    border: none;
+    gap: 3rem;
+  }
+
+  nav li {
+    padding-top: 2.5rem;
+    width: auto;
+  }
+
+  nav a {
+    background-color: var(--background-body);
+    color: rgb(72, 72, 226);
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-decoration: underline;
+  }
+
+  nav a:hover {
+    box-shadow: none;
+    text-shadow: none;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.03s;
+    cursor: pointer;
+    color: var(--ford-blue);
+    border-radius: 8px;
+  }
+
+  main {
+    background-color: var(--background-body);
+  }
+
+  hr {
+    border: 0px;
+    height: 2px;
+    width: auto;
+    margin: 0;
+    opacity: 0.5;
+    background-image: linear-gradient(
+      to right,
+      transparent,
+      var(--ford-blue),
+      transparent
+    );
+  }
+
+  section {
+    padding: 0.5rem 0;
+  }
+
+  figure.img-carro {
+    padding: 0 50px;
+  }
+
+  section figure img {
+    width: 100%;
+    height: 70vh;
+    object-fit: fill;
+    aspect-ratio: 16/9;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 1px 3px 8px 1px var(--text-black);
+  }
+  section p{
+    font-size: 1.1rem;
+  }
+  section a:hover {
+    color: #003478;
+    filter: brightness(2);
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-decoration: none;
+  }
 }
