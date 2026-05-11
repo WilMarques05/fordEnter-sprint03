@@ -79,17 +79,29 @@ nav a:hover {
 main {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  background-color: #3333332f;
   flex: 1;
   width: 100%;
   padding: 0% 2%;
 }
 
-section > img {
+section {
+  padding: 1rem 0;
+}
+
+figure.img-carro {
   width: 100%;
-  max-width: 100%;
-  min-width: 180px;
-  height: 55vh;
-  margin-top: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section figure img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+  display: block;
   border-radius: 8px;
   box-shadow: 1px 3px 8px 1px var(--text-black);
 }
@@ -144,14 +156,14 @@ footer .redes-sociais-icones {
   width: 23px;
 }
 
-footer #copy{
+footer #copy {
   grid-column: 2;
   grid-row: 1/-1;
   align-self: center;
   font-size: 0.65rem;
 }
 
-footer #icone-ford{
+footer #icone-ford {
   grid-column: 3;
   grid-row: 1/-1;
   justify-self: flex-end;
