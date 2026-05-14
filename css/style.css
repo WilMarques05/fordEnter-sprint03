@@ -29,7 +29,7 @@ body {
   grid-template-rows: repeat(2, auto);
 }
 
-#header-container img {
+#header-container a img {
   width: 35vw;
   max-width: 200px;
   min-width: 120px;
@@ -92,7 +92,7 @@ section {
 
 figure.img-carro {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
 }
 
@@ -208,7 +208,7 @@ footer #icone-ford {
     background-color: var(--background-body);
     color: rgb(72, 72, 226);
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-decoration: underline;
   }
 
@@ -267,5 +267,9 @@ footer #icone-ford {
     font-weight: 700;
     font-size: 1.3rem;
     text-decoration: none;
+  }
+
+  footer #copy{
+     font-size: 15px;
   }
 }
