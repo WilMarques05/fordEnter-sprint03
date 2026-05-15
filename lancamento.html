@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/lancamento.css">
+    <link rel="stylesheet" href="css/lancamento.css" />
     <title>Lançamento</title>
   </head>
   <body>
-     <header id="header-container">
+    <header id="header-container">
       <a href="index.html">
         <img src="img/logo-ford-256.png" alt="logo-ford" />
       </a>
@@ -20,13 +20,77 @@
         </ul>
       </nav>
     </header>
-    <hr>
+    <hr />
     <main>
-        <section>
-            <figure id="video-ranger">
-                <iframe width="auto" height="auto" src="https://www.youtube.com/embed/vQsryuNmsL0" title="Ford Ranger 2022 | Gerações" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </figure>
-        </section>
+      <section id="container-iframe">
+        <figure id="video-ranger">
+          <iframe
+            width="auto"
+            height="auto"
+            src="https://www.youtube.com/embed/vQsryuNmsL0"
+            title="Ford Ranger 2022 | Gerações"
+            frameborder="0"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+              web-share;
+            "
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </figure>
+      </section>
+
+      <section id="container-comparacao">
+        <label class="card-comparacao">
+          <img
+            class="imagem-card"
+            src="img/XL Cabine.jpg"
+            alt="ford Ranger/XL cabine simples"
+          />
+          <input type="checkbox" name="carro1" class="checkbox" />
+          <div id="descricao">
+            <span class="descricao"
+              >XL Cabine Simples 2.2 Diesel 4X4 MT 2022</span
+            >
+            <span class="preco-sugerido">Preço Sugerido: R$ 183.850</span>
+          </div>
+        </label>
+
+        <label class="card-comparacao">
+          <img
+            class="imagem-card"
+            src="img/xls 2.2 diesel.jpg"
+            alt="ford Ranger/XL cabine simples"
+          />
+          <input type="checkbox" name="carro1" class="checkbox" />
+          <div id="descricao">
+            <span class="descricao"
+              >XLS 2.2 Diesel 4X4 AT 2022</span
+            >
+            <span class="preco-sugerido">Preço Sugerido: R$ 220.690</span>
+          </div>
+        </label>
+
+        <label class="card-comparacao">
+          <img
+            class="imagem-card"
+            src="img/storm.jpg"
+            alt="ford Ranger/XL cabine simples"
+          />
+          <input type="checkbox" name="carro1" class="checkbox" />
+          <div id="descricao">
+            <span class="descricao"
+              >Storm 3.2 Diesel 4X4 AT 2022</span
+            >
+            <span class="preco-sugerido">Preço Sugerido: R$ 222.790</span>
+          </div>
+        </label>
+      </section>
     </main>
 
     <footer>
