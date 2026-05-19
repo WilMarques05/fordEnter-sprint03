@@ -21,46 +21,46 @@ iframe {
   height: 30dvh;
 }
 
-section#container-comparacao{
+section#container-comparacao {
   display: flex;
   flex-direction: column;
 }
 
-label.card-comparacao{
+label.card-comparacao {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(8, 2fr);
   grid-template-rows: repeat(2, max-content);
-
-  padding: 2rem 5rem;
+  padding: 2rem 2rem;
 }
 
-img.imagem-card{
-  grid-column: 1/-1;
+img.imagem-card {
+  grid-column: 2/8;
   width: 100%;
 }
 
-input.checkbox{
+input.checkbox {
+  grid-column: 2;
   grid-row: 2/-1;
-  width: 70%;
+  width: 40%;
 }
 
-div#descricao{
+div#descricao {
   display: flex;
   flex-flow: column nowrap;
   text-align: center;
   font-size: 0.8rem;
   padding-top: 0.5rem;
-  grid-column: 2/-1;
+  grid-column: 3/8;
   grid-row: 2/-1;
   align-items: center;
 }
 
-span.descricao{
+span.descricao {
   font-size: 0.9rem;
   font-weight: 600;
 }
 
-span.preco-sugerido{
+span.preco-sugerido {
   color: green;
   font-weight: 400;
 }
