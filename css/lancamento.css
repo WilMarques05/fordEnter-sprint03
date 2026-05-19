@@ -64,3 +64,42 @@ span.preco-sugerido {
   color: green;
   font-weight: 400;
 }
+
+@media (min-width: 665px) {
+  figure#video-ranger {
+    width: 90%;
+    max-width: 1500px;
+  }
+
+  iframe {
+    height: 50dvh;
+    max-height: 55dvh;
+  }
+
+  section#container-comparacao {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+    margin: 20px;
+  }
+
+  label.card-comparacao {
+    padding: 2rem 0;
+  }
+
+  img.imagem-card {
+    grid-column: 1/-1;
+    width: 100%;
+  }
+
+  input.checkbox {
+    grid-column: 1;
+    grid-row: 2;
+    width: 50%;
+  }
+
+  div#descricao {
+    grid-column: 2/-1;
+  }
+}
