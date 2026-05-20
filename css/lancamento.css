@@ -71,7 +71,7 @@ span.botao {
   justify-content: center;
 }
 
-input#btn-comparar {
+input.btn {
   font-weight: 600;
   font-size: 1.2rem;
   border-radius: 10px;
@@ -89,7 +89,7 @@ input#btn-comparar {
   );
 }
 
-input#btn-comparar:hover {
+input.btn:hover {
   box-shadow: 0px 1px 5px 1px var(--text-black);
   margin-left: 10px;
   padding: 0 10px;
@@ -135,7 +135,7 @@ input#btn-comparar:hover {
     grid-column: 2/-1;
   }
 
-  input#btn-comparar {
+  input.btn {
     font-size: 1.2rem;
     width: 25%;
   }
