@@ -65,6 +65,36 @@ span.preco-sugerido {
   font-weight: 400;
 }
 
+span.botao {
+  display: flex;
+  justify-content: center;
+}
+
+input#btn-comparar {
+  font-weight: 600;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  width: 50%;
+  height: 40px;
+  color: var(--text-white);
+  background: #020024;
+  background: linear-gradient(
+    90deg,
+    rgba(14, 8, 138, 0.829) 0%,
+    rgba(9, 9, 121, 1) 45%,
+    rgba(15, 12, 160, 0.877) 100%,
+    rgb(4, 5, 81) 100%
+  );
+}
+
+input#btn-comparar:hover {
+  box-shadow: 0px 1px 5px 1px var(--text-black);
+  margin-left: 10px;
+  padding: 0 10px;
+  transition: 0.4ms;
+  filter: brightness(1.7);
+}
+
 @media (min-width: 665px) {
   figure#video-ranger {
     width: 90%;
@@ -101,5 +131,10 @@ span.preco-sugerido {
 
   div#descricao {
     grid-column: 2/-1;
+  }
+
+  input#btn-comparar {
+    font-size: 1.2rem;
+    width: 25%;
   }
 }
