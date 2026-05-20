@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/lancamento.css">
     <link rel="stylesheet" href="css/contato.css" />
     <title>Contato</title>
   </head>
@@ -26,20 +27,39 @@
     <main>
       <section>
         <figure>
-          <img src="img/storm.png" alt="ford-ranger-storm" />
+          <img id="imagem-carro" src="img/storm.png" alt="ford-ranger-storm" />
         </figure>
         <form>
-          <input type="text" placeholder="NOME*" id="nome" />
-          <input type="text" placeholder="EMAIL*" id="email" />
-          <input type="text" placeholder="CPF*" id="cpf" />
-          <input type="text" placeholder="SOBRENOME*" id="sobrenome" />
-          <input type="text" placeholder="TELEFONE*" id="telefone" />
-          <select name="contato" class="fordform" required>
-            <option selected>COMO DESEJA SER CONTATADO</option>
-            <option>TELEFONE</option>
-            <option>E-MAIL</option>
+          <input class="input-form" type="text" placeholder="NOME*" id="nome" />
+          <input
+            class="input-form"
+            type="text"
+            placeholder="EMAIL*"
+            id="email"
+          />
+          <input class="input-form" type="text" placeholder="CPF*" id="cpf" />
+          <input
+            class="input-form"
+            type="text"
+            placeholder="SOBRENOME*"
+            id="sobrenome"
+          />
+          <input
+            class="input-form"
+            type="text"
+            placeholder="TELEFONE*"
+            id="telefone"
+          />
+          <select class="input-form" name="contato" class="fordform" required>
+            <option class="input-form" selected>
+              COMO DESEJA SER CONTATADO
+            </option>
+            <option class="input-form">TELEFONE</option>
+            <option class="input-form">E-MAIL</option>
           </select>
-          <input type="button" value="Enviar">
+          <span class="botao">
+            <input class="btn" type="button" value="Enviar" />
+          </span>
         </form>
       </section>
     </main>
