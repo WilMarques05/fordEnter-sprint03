@@ -1,4 +1,5 @@
 main {
+  background-color: var(--background-body);
   justify-content: start;
   padding: 2rem 0;
 }
@@ -77,6 +78,7 @@ input#btn-comparar {
   width: 50%;
   height: 40px;
   color: var(--text-white);
+  cursor: pointer;
   background: #020024;
   background: linear-gradient(
     90deg,
@@ -92,7 +94,7 @@ input#btn-comparar:hover {
   margin-left: 10px;
   padding: 0 10px;
   transition: 0.4ms;
-  filter: brightness(1.7);
+  filter: brightness(1.4);
 }
 
 @media (min-width: 665px) {
